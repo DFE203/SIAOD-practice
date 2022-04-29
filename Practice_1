@@ -1,0 +1,32 @@
+////Сортировка простой вставкой
+//#include <iostream>
+//using namespace std;
+//int main()
+//{
+//    setlocale(LC_ALL, "rus");
+//    int a[10000];
+//    cout << "Массив до ..." << endl;
+//    for (int k = 0; k < 10000; k++)
+//    {
+//        a[k] = rand();
+//        cout << a[k] << endl;
+//    }
+//    cout << "Массив после ..." << endl;
+//    for (int i = 0 + 1; i < 10000; i++)
+//    {
+//        for (int j = 0; j < 10000 - 1; j++)
+//        {
+//            if (a[j] > a[j + 1])
+//            {
+//                double x = a[j];
+//                a[j] = a[j + 1];
+//                a[j + 1] = x;
+//
+//            }
+//        }
+//    }
+//    for (int c = 0; c < 10000; c++)
+//    {
+//        cout << a[c] << endl;
+//    }
+//}
